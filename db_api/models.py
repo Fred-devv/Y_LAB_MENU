@@ -4,7 +4,6 @@ from sqlalchemy.orm import relationship
 
 from db_api.database import BASE
 
-
 class Menu(BASE):
     __tablename__ = 'menu'
     id = Column(Integer(), primary_key=True)
