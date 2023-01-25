@@ -10,7 +10,6 @@ class BaseMenu(BaseModel):
     dishes_count: Optional[int]
     submenus_count: Optional[int]
 
-    # автоматически сирелизует обьекты склалхими в джейсон
     class Config:
         orm_mode = True
 
